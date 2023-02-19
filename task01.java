@@ -76,5 +76,6 @@ public class task01 {
         System.out.printf("Задан массив: %s\n", Arrays.toString(array));
 
         System.out.printf("Отсортированный массив: %s\n", Arrays.toString(sortArray(array)));
+        iScanner.close();
 }
 }
